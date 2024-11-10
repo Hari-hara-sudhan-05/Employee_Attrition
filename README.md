@@ -3,13 +3,27 @@
 Welcome to the Employee Attrition Prediction project! This project aims to predict employee turnover using an XGBoost model while leveraging explainable AI techniques such as SHAP and LIME to interpret the model's predictions and offer actionable business insights.
 
 Project Overview
-Predicting employee attrition is a crucial task for businesses to retain their top talent and reduce turnover costs. This project uses a dataset of employee attributes to build a machine learning model, interpret its predictions, and provide explainable insights that help HR teams make informed decisions.
+Employee attrition can significantly impact an organization’s productivity, finances, and team morale. This project uses machine learning to predict which employees are at risk of leaving, providing actionable insights to improve employee retention. In addition to building a predictive model using XGBoost, we employ Explainable AI (XAI) techniques such as SHAP and LIME to interpret the model’s outputs, ensuring HR decisions are transparent and understandable.
 
-Key Features
-Machine Learning Model: An XGBoost classifier is trained to predict whether an employee is likely to leave.
-Explainable AI Techniques:
-SHAP (SHapley Additive exPlanations) for global and local feature importance.
-LIME (Local Interpretable Model-agnostic Explanations) for understanding individual predictions.
-Data Visualization: Visual insights on features and model predictions.
-React Web Application: A user interface to interact with the prediction model and explanations.
+Objectives:
+Predict employee attrition based on various employee and job-related features.
+Use XAI techniques to understand the model’s predictions.
+Offer actionable recommendations based on interpretable insights.
+Features and Technology Stack
 
+Key Features:
+Machine Learning Model: XGBoost classifier to predict employee attrition.
+Data Visualization: Insights on features through exploratory data analysis (EDA).
+XAI Techniques:
+  SHAP (SHapley Additive exPlanations): Provides a global view of feature importance and detailed local explanations for each prediction.
+  LIME (Local Interpretable Model-agnostic Explanations): Explains individual predictions through simplified models.
+React Web App: A simple user interface to test and visualize predictions and their explanations.
+
+Technology Stack:
+Python: Core programming language.
+Pandas & NumPy: For data handling and manipulation.
+scikit-learn: For model evaluation and preprocessing.
+XGBoost: Gradient-boosting framework for building the model.
+SHAP & LIME: Explainability libraries.
+Seaborn & Matplotlib: For data visualization.
+React js: For building the web application.
