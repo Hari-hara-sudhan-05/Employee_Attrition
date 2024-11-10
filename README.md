@@ -1,5 +1,3 @@
-To ensure that the text displays correctly on new lines in Markdown, you can use a combination of formatting techniques such as double spaces at the end of lines or using `<br>` tags. Here's how you can adjust the text so that it appears correctly with line breaks:
-
 ---
 
 # Employee Attrition Prediction with Explainable AI (XAI)
