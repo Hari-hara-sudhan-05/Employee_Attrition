@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.5;
+  color: #ebe7ef;
+  background: radial-gradient(#280a48, #20043d);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+main {
+  width: 90%;
+  max-width: 40rem;
+  margin: auto;
+  padding: 2rem;
+}
+
+form {
+  padding: 2rem;
+  background-color: #140524;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+form h2 {
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #a18aba;
+  margin-bottom: 1rem;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 1rem;
+  color: #c1b3d7;
+}
+
+form input[type="text"],
+form input[type="number"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: 1px solid #2f1d43;
+  border-radius: 4px;
+  background-color: #2f1d43;
+  color: #ebe7ef;
+  font-size: 1rem;
+}
+
+form select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: 1px solid #2f1d43;
+  border-radius: 4px;
+  background-color: #2f1d43;
+  color: #ebe7ef;
+  font-size: 1rem;
+}
+
+form input[type="text"]:focus,
+form input[type="number"]:focus {
+  outline: none;
+  border-color: #7925d3;
+  box-shadow: 0 0 5px rgba(121, 37, 211, 0.5);
+}
+
+form select:focus {
+  outline: none;
+  border-color: #7925d3;
+  box-shadow: 0 0 5px rgba(121, 37, 211, 0.5);
+}
+
+form button {
+  width: 100%;
+  padding: 0.7rem;
+  margin-top: 1.5rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #7925d3;
+  color: #ebe7ef;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #5e1b9f;
+}
+
+/* Centering the standalone button */
+.center-button {
+  display: block;
+  margin: 1.5rem auto; /* Centers the button horizontally */
+  padding: 0.7rem;
+  width: 20%; /* Sets button width */
+  border: none;
+  border-radius: 6px;
+  background-color: #7925d3;
+  color: #ebe7ef;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.center-button:hover {
+  background-color: #5e1b9f;
+}
+
+/* Styling for the <p> element */
+.styled-paragraph {
+  text-align: center;
+  color: #d1c1e6;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 2rem;
+  padding: 0.5rem;
+  background-color: #1c0e2f;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+form p {
+  text-align: center;
+  color: #a18aba;
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.center {
+  text-align: center;
+  color: #a18aba;
+}
+
+.control {
+  margin-bottom: 1rem;
+}
+
+.control-error {
+  color: #d9534f;
+  font-size: 0.8rem;
+  margin-top: 0.3rem;
+}
+
+
+.lime-plot {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* Adds rounded corners to the image */
+  border: 2px solid #ddd; /* Adds a subtle border around the image */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a soft shadow around the image */
+  margin-top: 20px; /* Adds space above the image */
+  margin-bottom: 20px; /* Adds space below the image */
+  display: block; /* Centers the image horizontally */
+  margin-left: auto; /* Centers the image horizontally */
+  margin-right: auto; /* Centers the image horizontally */
+}
